@@ -1,0 +1,8 @@
+414C2_4qA_aroundD4Z4	custom	gene	5001	5191	.	+	.	gene_id "CLUHP4"; transcript_id "CLUHP4"; gene_name "CLUHP4";
+414C2_4qA_aroundD4Z4	custom	exon	5001	5191	.	+	.	gene_id "CLUHP4"; transcript_id "CLUHP4"; gene_name "CLUHP4";
+414C2_4qA_aroundD4Z4	custom	gene	6923	7411	.	+	.	gene_id "10qA_D4F104S1"; transcript_id "10qA_D4F104S1"; gene_name "10qA_D4F104S1";
+414C2_4qA_aroundD4Z4	custom	exon	6923	7411	.	+	.	gene_id "10qA_D4F104S1"; transcript_id "10qA_D4F104S1"; gene_name "10qA_D4F104S1";
+414C2_4qA_aroundD4Z4	custom	gene	133820	134065	.	+	.	gene_id "4qA_pLAM"; transcript_id "4qA_pLAM"; gene_name "4qA_pLAM";
+414C2_4qA_aroundD4Z4	custom	exon	133820	134065	.	+	.	gene_id "4qA_pLAM"; transcript_id "4qA_pLAM"; gene_name "4qA_pLAM";
+414C2_4qA_aroundD4Z4	custom	gene	142987	143588	.	+	.	gene_id "DUX4_end"; transcript_id "DUX4_end"; gene_name "DUX4_end";
+414C2_4qA_aroundD4Z4	custom	exon	142987	143588	.	+	.	gene_id "DUX4_end"; transcript_id "DUX4_end"; gene_name "DUX4_end";

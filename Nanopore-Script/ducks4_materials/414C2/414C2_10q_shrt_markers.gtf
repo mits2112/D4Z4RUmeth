@@ -1,0 +1,8 @@
+414C2_10q_shrt_aroundD4Z4	custom	gene	2835	3025	.	+	.	gene_id "CLUHP4"; transcript_id "CLUHP4"; gene_name "CLUHP4";
+414C2_10q_shrt_aroundD4Z4	custom	exon	2835	3025	.	+	.	gene_id "CLUHP4"; transcript_id "CLUHP4"; gene_name "CLUHP4";
+414C2_10q_shrt_aroundD4Z4	custom	gene	4751	5239	.	+	.	gene_id "10qA_D4F104S1"; transcript_id "10qA_D4F104S1"; gene_name "10qA_D4F104S1";
+414C2_10q_shrt_aroundD4Z4	custom	exon	4751	5239	.	+	.	gene_id "10qA_D4F104S1"; transcript_id "10qA_D4F104S1"; gene_name "10qA_D4F104S1";
+414C2_10q_shrt_aroundD4Z4	custom	gene	42860	43099	.	+	.	gene_id "10q26_pLAM"; transcript_id "10q26_pLAM"; gene_name "10q26_pLAM";
+414C2_10q_shrt_aroundD4Z4	custom	exon	42860	43099	.	+	.	gene_id "10q26_pLAM"; transcript_id "10q26_pLAM"; gene_name "10q26_pLAM";
+414C2_10q_shrt_aroundD4Z4	custom	gene	52021	52620	.	+	.	gene_id "DUX4_end"; transcript_id "DUX4_end"; gene_name "DUX4_end";
+414C2_10q_shrt_aroundD4Z4	custom	exon	52021	52620	.	+	.	gene_id "DUX4_end"; transcript_id "DUX4_end"; gene_name "DUX4_end";
