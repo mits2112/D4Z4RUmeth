@@ -1,0 +1,5 @@
+haplotype	RU	fasta	RU_requirement
+4qA	10	NCNPF2_4qA_aroundD4Z4.fa	>0
+4qB	12	NCNPF2_4qB_aroundD4Z4.fa	>0
+10q_long	16	NCNPF2_10q_long_aroundD4Z4.fa	>13
+10q_shrt	13	NCNPF2_10q_shrt_aroundD4Z4.fa	=13

@@ -1,0 +1,112 @@
+========== START NCNPF2_4qB_aroundD4Z4 ==========
+Wed Sep 23 12:01:55 AM JST 2026
+cc002
+Chromosome: NCNPF2_4qB_aroundD4Z4
+Fasta: /home/mitsuru.honda/tools/Slurm_Scripts/Nanopore/ducks4_materials/NCNPF2/NCNPF2_4qB_aroundD4Z4.fa
+OUTMAF: /home/mitsuru.honda/tools/Slurm_Scripts/Nanopore/ducks4_materials/NCNPF2/DUX4ORF/NCNPF2_4qB_aroundD4Z4/NCNPF2_4qB_aroundD4Z4_DUX4ORF_notfiltered.maf
+OUTSAM: /home/mitsuru.honda/tools/Slurm_Scripts/Nanopore/ducks4_materials/NCNPF2/DUX4ORF/NCNPF2_4qB_aroundD4Z4/NCNPF2_4qB_aroundD4Z4_DUX4ORF_notfiltered.sam
+OUTBED: /home/mitsuru.honda/tools/Slurm_Scripts/Nanopore/ducks4_materials/NCNPF2/DUX4ORF/NCNPF2_4qB_aroundD4Z4/NCNPF2_4qB_aroundD4Z4_DUX4ORF.bed
+THREADS_PER_JOB: 2
+[2] lastal NCNPF2_4qB_aroundD4Z4
+	Command being timed: "lastal -P 2 -d90 -m20 --split /home/mitsuru.honda/tools/Slurm_Scripts/Nanopore/ducks4_materials/NCNPF2/DUX4ORF/lastdb/DUX4ORF /home/mitsuru.honda/tools/Slurm_Scripts/Nanopore/ducks4_materials/NCNPF2/NCNPF2_4qB_aroundD4Z4.fa"
+	User time (seconds): 0.14
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10752
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 1975
+	Voluntary context switches: 33
+	Involuntary context switches: 7
+	Swaps: 0
+	File system inputs: 168
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+[3] maf-convert sam NCNPF2_4qB_aroundD4Z4
+	Command being timed: "maf-convert sam -d /home/mitsuru.honda/tools/Slurm_Scripts/Nanopore/ducks4_materials/NCNPF2/DUX4ORF/NCNPF2_4qB_aroundD4Z4/NCNPF2_4qB_aroundD4Z4_DUX4ORF_notfiltered.maf"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 91%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14512
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2389
+	Voluntary context switches: 20
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+[4] sam_to_repeat_bed_v2.py : no filter NCNPF2_4qB_aroundD4Z4
+	Command being timed: "/home/mitsuru.honda/tools/Slurm_Scripts/genome_analysis/sam_to_repeat_bed_v2.py /home/mitsuru.honda/tools/Slurm_Scripts/Nanopore/ducks4_materials/NCNPF2/NCNPF2_4qB_aroundD4Z4.fa"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 87%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 11884
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1563
+	Voluntary context switches: 18
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+[5] sam_to_repeat_bed_v2.py : filtered NCNPF2_4qB_aroundD4Z4
+	Command being timed: "/home/mitsuru.honda/tools/Slurm_Scripts/genome_analysis/sam_to_repeat_bed_v2.py /home/mitsuru.honda/tools/Slurm_Scripts/Nanopore/ducks4_materials/NCNPF2/NCNPF2_4qB_aroundD4Z4.fa --min-as 5000 --max-nm 5000"
+	User time (seconds): 0.01
+	System time (seconds): 0.01
+	Percent of CPU this job got: 87%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9728
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1579
+	Voluntary context switches: 18
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+========== OUTPUT NCNPF2_4qB_aroundD4Z4 ==========
+-rw-r--r-- 1 mitsuru.honda sih 792 Sep 23 00:01 /home/mitsuru.honda/tools/Slurm_Scripts/Nanopore/ducks4_materials/NCNPF2/DUX4ORF/NCNPF2_4qB_aroundD4Z4/NCNPF2_4qB_aroundD4Z4_DUX4ORF.bed
+-rw-r--r-- 1 mitsuru.honda sih 726 Sep 23 00:01 /home/mitsuru.honda/tools/Slurm_Scripts/Nanopore/ducks4_materials/NCNPF2/DUX4ORF/NCNPF2_4qB_aroundD4Z4/NCNPF2_4qB_aroundD4Z4_DUX4ORF_filtered.bed
+-rw-r--r-- 1 mitsuru.honda sih 33K Sep 23 00:01 /home/mitsuru.honda/tools/Slurm_Scripts/Nanopore/ducks4_materials/NCNPF2/DUX4ORF/NCNPF2_4qB_aroundD4Z4/NCNPF2_4qB_aroundD4Z4_DUX4ORF_notfiltered.maf
+-rw-r--r-- 1 mitsuru.honda sih 19K Sep 23 00:01 /home/mitsuru.honda/tools/Slurm_Scripts/Nanopore/ducks4_materials/NCNPF2/DUX4ORF/NCNPF2_4qB_aroundD4Z4/NCNPF2_4qB_aroundD4Z4_DUX4ORF_notfiltered.sam
+========== END NCNPF2_4qB_aroundD4Z4 ==========
+Wed Sep 23 12:01:55 AM JST 2026

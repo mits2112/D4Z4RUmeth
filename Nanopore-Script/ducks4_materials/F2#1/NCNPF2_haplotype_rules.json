@@ -1,0 +1,13 @@
+{
+  "cell_line": "NCNPF2",
+  "chr4_undefined": {
+    "min_ru_exclusive": 1,
+    "exclude_gap": true,
+    "4qB": {
+      "required_exact_tokens": [
+        "4qB_pLAM"
+      ],
+      "note": "Exact-token matching means 4qB_pLAM_low-pid does not count as 4qB_pLAM, but it may coexist in repeat_sequence."
+    }
+  }
+}

@@ -1,0 +1,6 @@
+NCNPF2_4qA_aroundD4Z4	custom	gene	5371	5859	.	+	.	gene_id "4qA_D4F104S1"; transcript_id "4qA_D4F104S1"; gene_name "4qA_D4F104S1";
+NCNPF2_4qA_aroundD4Z4	custom	exon	5371	5859	.	+	.	gene_id "4qA_D4F104S1"; transcript_id "4qA_D4F104S1"; gene_name "4qA_D4F104S1";
+NCNPF2_4qA_aroundD4Z4	custom	gene	36781	37021	.	+	.	gene_id "4qA_pLAM"; transcript_id "4qA_pLAM"; gene_name "4qA_pLAM";
+NCNPF2_4qA_aroundD4Z4	custom	exon	36781	37021	.	+	.	gene_id "4qA_pLAM"; transcript_id "4qA_pLAM"; gene_name "4qA_pLAM";
+NCNPF2_4qA_aroundD4Z4	custom	gene	45929	46528	.	+	.	gene_id "DUX4_end"; transcript_id "DUX4_end"; gene_name "DUX4_end";
+NCNPF2_4qA_aroundD4Z4	custom	exon	45929	46528	.	+	.	gene_id "DUX4_end"; transcript_id "DUX4_end"; gene_name "DUX4_end";

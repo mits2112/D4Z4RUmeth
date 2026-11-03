@@ -1,0 +1,4 @@
+NCNPF2_4qB_aroundD4Z4	custom	gene	22974	23461	.	+	.	gene_id "4qB_D4F104S1"; transcript_id "4qB_D4F104S1"; gene_name "4qB_D4F104S1";
+NCNPF2_4qB_aroundD4Z4	custom	exon	22974	23461	.	+	.	gene_id "4qB_D4F104S1"; transcript_id "4qB_D4F104S1"; gene_name "4qB_D4F104S1";
+NCNPF2_4qB_aroundD4Z4	custom	gene	61661	61843	.	+	.	gene_id "4qB_pLAM"; transcript_id "4qB_pLAM"; gene_name "4qB_pLAM";
+NCNPF2_4qB_aroundD4Z4	custom	exon	61661	61843	.	+	.	gene_id "4qB_pLAM"; transcript_id "4qB_pLAM"; gene_name "4qB_pLAM";
